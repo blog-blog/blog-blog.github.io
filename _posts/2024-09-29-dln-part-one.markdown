@@ -4,7 +4,7 @@ title: "Digital Literacy Narrative Part One: A Vulnerable, Reading Literacy"
 date: 2024-10-2 0:0:0 -0700
 categories: digital-literacy-narrative
 ---
-*Written for ASU's ENG 484 Writing Mentor Internship, this is first part of a three part Digital Literacy Narrative. Find here [part two](dln-part-two) and [part three](dln-part-three).*
+*Written for ASU's ENG 484 Writing Mentor Internship, this is the first part of a three part Digital Literacy Narrative. Find here [part two](dln-part-two) and [part three](dln-part-three).*
 
 <figure>
 <img src="/assets/media/shelf.jpg" alt="my alt text"/>
