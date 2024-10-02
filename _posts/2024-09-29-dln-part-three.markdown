@@ -4,7 +4,7 @@ title: "Digital Literacy Narrative Part Three: En Media Res"
 date: 2024-10-2 0:0:2 -0700
 categories: digital-literacy-narrative
 ---
-*Written for ASU's ENG 484 Writing Mentor Internship, this is first part of a three part Digital Literacy Narrative. Find here [part one](dln-part-one) and [part two](dln-part-two).*
+*Written for ASU's ENG 484 Writing Mentor Internship, this is the final part of a three part Digital Literacy Narrative. Find here [part one](dln-part-one) and [part two](dln-part-two).*
 
 <figure>
 <video width="100%" controls autoplay loop>
