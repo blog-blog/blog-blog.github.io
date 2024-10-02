@@ -4,7 +4,7 @@ title: "Digital Literacy Narrative Part Two: A Story-making, Writing Literacy"
 date: 2024-10-2 0:0:1 -0700
 categories: digital-literacy-narrative
 ---
-*Written for ASU's ENG 484 Writing Mentor Internship, this is first part of a three part Digital Literacy Narrative. Find here [part one](dln-part-one) and [part three](dln-part-three).*
+*Written for ASU's ENG 484 Writing Mentor Internship, this is second part of a three part Digital Literacy Narrative. Find here [part one](dln-part-one) and [part three](dln-part-three).*
 
 With this post, I want to center the importance of writing. It might help to consider life without writing, or really, life without story telling. Whether it is fiction or non-fiction, I'm always trying to tell the reader some story. Sometimes this story is explicit, and sometimes it lurks behind the words. Sometimes… the story is in the motive.
 ## First Grade
