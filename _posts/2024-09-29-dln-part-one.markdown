@@ -15,7 +15,7 @@ My bookshelf is quite sparse although I do have two other and not-pictured shelv
 
 My first urge was to make this some big deeply philosophy piece of work. I wrote about a paragraph or two, but then I thought, "I really don't like this." But why not? The style was consistent with some of my most favorite works I've written, so what makes that style, *that mode*, inconsistent with this narrative?
 
-I don't think it really captures who I actually am. Honestly, I love that academic mode (and I'll even have some excerpts in the [second post in the series]()), but some of the pieces I love the most are faster paced, more of a staccato cadence of humor. This won't be that, but I think it serves my narrative better to make this closer to that, even if it isn't completely that. Also, who cares about grammar in a blog? Grammar will do whatever serves me best. Down with the grammar prescriptivists! (I think that's the linguist in me peeking out, and maybe also the disappointment at the 'establishment'.[^1]) Who faults fiction writers for not being grammatically correct? Not that this is fiction.
+I don't think it really captures who I actually am. Honestly, I love that academic mode (and I'll even have some excerpts in the [second post in the series]()), but some of the pieces I love the most are faster paced, more of a staccato cadence of humor. This won't be that, but I think it serves my narrative better to make this closer to that, even if it isn't completely that.
 
 This is meant to be non-fiction, but it also requires me to dramatize events in my life that really were not dramatic. Crush them into one singular event (like trying to gather a goopy dough ball into one whole mass), sure, all the events which I will talk about later were… dramatic revolutions!
 
@@ -95,5 +95,4 @@ I think of the serialized *Tales of the City* by Armistead Maupin, *The Song of 
 
 These and the event of which I spoke give me that will to recognize the importance of literacy. Literacy, to me, is not that ultimate skill that guarantees a successful future. I've never thought of it like that. Beginning perhaps here, with *His Dark Materials*, I fully understand the power that literature[^2] has and by implication the power the skill *to create literature* gives me.
 
-[^1]: This is quite funny to me. Some of the worse political turns in the world's history have come from young men being angry at the old men. They then remove the old men, and then the young men become just as oppressive and despotic as the old men. Masculinity! See *The Chalice and The Blade* by Riane Eisler.
 [^2]: By literature, I don't mean canonical or classical works. By all means, I'm using it more loosely than I ought to to mean any written or even just artful work in any medium.
