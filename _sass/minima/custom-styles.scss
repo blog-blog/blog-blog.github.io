@@ -195,6 +195,25 @@ html {
     font-size: 18px;
 }
 
+/** Aligning */
+.image-right {
+	padding:0 0 0 2rem;
+	float:right; 
+	width:50%;
+}
+
+@media (max-width: 768px) {
+  .image-right {
+	padding:0 0 0 0;
+	float:none; 
+	width:100%;
+  }
+}
+
+.pixel-perfect {
+  image-rendering: crisp-edges; /*no blur*/
+}
+
 /** Reset some basic elements */
 body,
 h1,
@@ -211,7 +230,8 @@ dl,
 dd,
 ol,
 ul,
-figure {
+figure,
+br {
     margin: 0;
     padding: 0;
 }
@@ -260,6 +280,10 @@ figure,
 hr {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+br {
+	margin-bottom: 15px
 }
 
 /** `main` element */
@@ -328,8 +352,8 @@ a:hover {
 
 /** Blockquotes */
 blockquote {
-    color: #444;
-    border-left: 4px solid #e8e8e8;
+    color: rgba(255, 255, 255, 0.80);
+    border-left: 4px solid rgba(255, 255, 255, 0.25);
     padding-left: 15px;
     font-size: 1.125rem;
     font-style: italic;
@@ -343,14 +367,15 @@ blockquote em {
 }
 
 /** Code formatting */
+/**
 pre,
 code {
     font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono",
         "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
     font-size: 0.9375em;
-    border: 1px solid #e8e8e8;
+    border: 1px solid rgba(255, 255, 255, 0.20);
     border-radius: 3px;
-    background-color: #eeeeff;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 code {
@@ -367,13 +392,14 @@ pre > code {
     padding-left: 0;
 }
 
+
 .highlight {
     border-radius: 3px;
     background: #eeeeff;
 }
 .highlighter-rouge .highlight {
     background: #eeeeff;
-}
+} */
 
 /** Wrapper */
 .wrapper {
