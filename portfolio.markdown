@@ -1,7 +1,12 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: Teaching Portfolio
+permalink: projects/teaching-portfolio/
 ---
 
-This will eventually hold a project. Don't peek!
+## Welcome
+This will eventually hold a project.
+
+## Statement
+
+## Reflection

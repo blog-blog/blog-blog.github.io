@@ -7,6 +7,8 @@ permalink: /about/
 ![](/assets/media/016.jpg)
 {: .image-right}
 
+*WIP*
+
 I'm a student of Philosophy (Morality, Politics, and Law) and Spanish at [Arizona State University](https://www.asu.edu/). Previously, I've attended [Joliet Junior College](https://jjc.edu/) and [Central Arizona College](https://centralaz.edu/). At ASU, I also work at the College of Integrated Arts and Sciences in the Writers' Lab as a [Writing Mentor](https://cisa.asu.edu/writing-fellows). (I'm also a Walmart cashier—keeps me humble).
 
 My interests include reading, writing, playing video games, baking, and [making game art](../projects/gameart). I used to live in Illinois, and I graduated from a high school of less than 200 students. After graduating May of 2023, my family and I moved to Arizona. I love the aesthetic of winter and Christmas, and sadly Arizona is a desert!
