@@ -83,7 +83,7 @@ However, for a narrative—and a *public* narrative—some events are too privat
 <figure>
 ![](/assets/media/012.png)
 <figcaption>
-Concept pixel art for a falling-sand brawler game.
+Concept pixel art for a [falling-sand](https://en.wikipedia.org/wiki/Falling-sand_game) brawler game.
 </figcaption>
 </figure>
 {: .image-right .pixel-perfect}
