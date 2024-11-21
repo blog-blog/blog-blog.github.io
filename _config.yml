@@ -29,8 +29,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
   - about.markdown
-  - portfolio.markdown
+  - projects/teaching-portfolio/teaching-portfolio.markdown
   - projects.markdown
+  - contact.md
 
 # Build settings
 remote_theme: jekyll/minima@3cdd14d

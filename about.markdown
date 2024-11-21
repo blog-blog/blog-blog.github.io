@@ -4,20 +4,37 @@ title: About
 permalink: /about/
 ---
 
-![](/assets/media/016.jpg)
+![](/assets/media/016.jpg) _Placeholder Image_
 {: .image-right}
 
-*WIP*
+I'm a student of Philosophy (Morality, Politics, and Law) and Spanish at [Arizona State University](https://www.asu.edu/). After graduating, I plan to master in Public Policy. My goal is to intern for the Arizona Legislature or to work with a think-tank or policy institute.
 
-I'm a student of Philosophy (Morality, Politics, and Law) and Spanish at [Arizona State University](https://www.asu.edu/). Previously, I've attended [Joliet Junior College](https://jjc.edu/) and [Central Arizona College](https://centralaz.edu/). At ASU, I also work at the College of Integrated Arts and Sciences in the Writers' Lab as a [Writing Mentor](https://cisa.asu.edu/writing-fellows). (I'm also a Walmart cashier—keeps me humble).
+I've previously attended [Joliet Junior College](https://jjc.edu/) and [Central Arizona College](https://centralaz.edu/). At ASU, I also work at the College of Integrated Arts and Sciences in the Writers' Lab as a [Writing Mentor](https://cisa.asu.edu/writing-fellows). (I'm also a Walmart cashier—it keeps me humble).
 
-My interests include reading, writing, playing video games, baking, and [making game art](../projects/gameart). I used to live in Illinois, and I graduated from a high school of less than 200 students. After graduating May of 2023, my family and I moved to Arizona. I love the aesthetic of winter and Christmas, and sadly Arizona is a desert!
+I live in the Phoenix area, having moved from Illinois in 2023.
 
-I'm also interested in free and open source software (foss). Foss is forms the backbone of much of the internet (most of the world's servers run on [Linux](https://en.wikipedia.org/wiki/Linux)). I take an interest in a few communites, but in particular I'm most interested in [GNOME](https://www.gnome.org/), [Blender](https://www.blender.org/), and [Inkscape](https://inkscape.org/). Fun fact, the learning management system Canvas, which is used by ASU, is open source. 
+## I've also got lots of interests.
 
-Perhaps I'll add a section about politics in the future… However, after graduating with a Bachelor's from ASU, I plan to master in Public Policy. Politics is a major motivator in my life.
+Currently, I'm researching and writing an article for publishing. It focuses on a novel interpretation of Harriet Jacobs' _Incidents in the Life of a Slave Girl_. You can read more about that [in my blog](#).
 
-There's much to say about myself, but this is some of the basics.
+I also make [game art](../projects/gameart). This has included pixel art, vector art, and 3D graphics. I've published [one project](https://mrbreakfastsdelight.itch.io/mr-breakfasts-free-prompts) into the public domain for anyone to freely use, under the alias _Mr. Breakfast_.
 
-## Contact Me
-[alatimer@protonmail.com](mailto:alatimer@protonmail.com)
+Speaking of free use, I also have an interest in free and open-source software (FOSS). FOSS forms the backbone of the internet and is often relied upon by propriety software.[^1] FOSS is freedom to express, modify, and share. FOSS is also political. [GNU](https://www.gnu.org/licenses/agpl-3.0.en.html) writes, "The licenses for most software and other practical works are designed to take away your freedom to share and change the works."
+
+I'm also an avid lurker in the [GNOME](https://www.gnome.org) community, a FOSS Linux desktop evironment, even having submitted design documents.
+
+Fun fact, the learning management system Canvas, which is used by ASU, is open source.
+
+I'm supportive of the human, and as humans, we all need rest. So I also read, write, and play video games. I've been reading Sir Terry Pratchett's _Discworld_, but for non-fiction, I recommend Angela Chen's _Ace_. Additionaly, from time to time I bake, watch a TV series, and spend some time on Youtube or social media.
+
+## Contact
+- Email: [alatimer@protonmail.com](mailto:alatimer@protonmail.com)
+- ASU Email: [alatime5@asu.edu](mailto:alatime5@asu.edu)
+- [LinkedIn](https://www.linkedin.com/in/allston-latimer/)
+- [Github](https://github.com/mr-breakfast)
+
+## Saved Links
+- [April Cools Club](https://www.aprilcools.club/): "… on April Fools' Day (also known as “April 1st”), a participant produces genuine content that's very different from their normal produced content …"
+
+## End Notes
+[^1]: Most of the world's severs run on [Linux](https://en.wikipedia.org/wiki/Linux)

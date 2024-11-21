@@ -14,4 +14,4 @@ To learn a little more about me, head over to the [About](about) page. But for t
 
 I hope you enjoy your stay. Have a look around—I might recommened checking out my [Digital Literacy Narrative](projects/dln) project for English 484.
 
-# Posts
+# Vanilla Abstract
