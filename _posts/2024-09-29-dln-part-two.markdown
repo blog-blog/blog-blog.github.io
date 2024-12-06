@@ -3,7 +3,7 @@ layout: post
 title: "Part Two: A Writing Literacy"
 date: 2024-10-2 0:0:1 -0700
 categories: digital-literacy-narrative
-permalink: /projects/dln-2
+permalink: /portfolio/dln-2
 ---
 *Written for ASU's ENG 484 Writing Mentor Internship, this is the second part of a three part Digital Literacy Narrative. Find here [part one](dln-1) and [part three](dln-3).*
 

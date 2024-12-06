@@ -3,7 +3,7 @@ layout: post
 title: "On Creating a Blog"
 date: 2024-10-13 0:0:0
 categories: digital-literacy-narrative
-permalink: /projects/dln-4
+permalink: /portfolio/dln-4
 ---
 
 This final part of my [Digital Literacy Narrative](../projects/dln) will be much less polished (if we can even call the previous 3 polished…)

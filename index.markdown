@@ -3,15 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: You've Opened the Door
+title: 
 ---
 
-Welcome to the Cabinet. It's sort of dark and dingey, but it's sort of cozy too.
+**Welcome to the Cabinet** 
 
+It's sort of cozy in here, what, next to the vanilla and spice.
 
-To learn a little more about me, head over to the [About](about) page. But for the curious, I'm a student at Arizona State University studying Philosophy and Spanish. I have an interest in Public Policy as well. This is all in addition to navigating a life transitioning from one stage to the next. Suffice to say, don't think I've got it all figured out just because I've set up a blog!
+To learn a little more about me, head over to the [About](about) page. 
 
+Briefly, I'm a **Writing Mentor** with Arizona State University's the [Writers' Studio](https://cisa.asu.edu/content/writers-studio), an online, first-year college composition program. At the Studio, I work as a course-embedded tutor (tutoring, interacting, and meeting with students) and a teacher's assistant (grading, announcing, and assortment of other tasks). You can learn more about my experience as an educator with my [Teaching Portfolio](portfolio/teaching).
 
-I hope you enjoy your stay. Have a look around—I might recommened checking out my [Digital Literacy Narrative](projects/dln) project for English 484.
+I'm also a student at ASU studying Philosophy and Spanish with an interest in Public Policy. In the meantime, I write for my blog [Vanilla Abstract](/#Vanilla Abstract), and I'm a [game artist](portfolio/game-art).
+
+I hope you enjoy your stay. Have a look around—I might recommend checking out my [Digital Literacy Narrative](portfolio/dln) project for English 484, a required course for beginning mentors.
 
 # Vanilla Abstract
+This is my blog. It's a play on [abstracts](https://en.wikipedia.org/wiki/Abstract_(summary)) and, of course, [vanilla extract](https://www.youtube.com/watch?v=kPauR6tP_cg).
+
+Here, we'll cover any of my topics of interest: open-source software, politics, books, and anything I write with a public audience in mind.

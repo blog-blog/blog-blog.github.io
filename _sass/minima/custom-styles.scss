@@ -4,8 +4,9 @@
     --header-color-2: rgba(0, 0, 0, 0.1);
     --header-color-3: rgba(255, 86, 170, 0.5019380392156862);
     --header-color-4: rgba(0, 0, 0, 0.1);
-    --link-color: #ffb7ce;
-    --accent-color: #ff56aa;
+    --link-color: #8ce68c;
+    --accent-color: #8ce68c;
+    --strong-color: #fe8ed7;
     --shadow-offset: 16px;
     --shadow-blur: 32px;
     --shadow-spread: calc(var(--shadow-blur) * -.75);
@@ -103,6 +104,10 @@ br {
 	margin-bottom: 15px
 }
 
+strong {
+	color: var(--strong-color);
+}
+
 /** `main` element */
 main {
     display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
@@ -144,6 +149,7 @@ h4,
 h5,
 h6 {
     font-weight: 800;
+    color: var(--accent-color)
 }
 
 /** Links */
@@ -314,43 +320,73 @@ table td {
 	color: white;
 }
 
+
+@media screen and (min-width: 800px) {
+.site-header {
+    max-width: calc(800px - (30px * 2));}
+}
+@media screen and (min-width: 800px) {
+.site-header {
+    width: calc(800px - (30px * 2));}
+}
+
 .site-header {
     border: 1px solid var(--divider-color);
     border-top: 1px solid var(--divider-color);
     border-bottom: 1px solid var(--divider-color);
-    
-    width: 56%;
     place-self: center;
-
-
-
+    --item-radius: 16px;
     background-color:#242526;
     margin: 16px 0;
     border-radius: 16px;
     box-shadow: calc(var(--shadow-offset) * -1) var(--shadow-offset) var(--shadow-blur) var(--shadow-spread) var(--header-color-1, var(--drop-shadow-color)),var(--shadow-offset) var(--shadow-offset) var(--shadow-blur) var(--shadow-spread) var(--header-color-2, var(--drop-shadow-color));
 }
 
+.header-container {
+	padding: 0 32px 0 32px;
+	position: relative;
+	top: -70px;
+        z-index: 1;
+        
+}
+
+.header-banner {
+	mask-image: linear-gradient(to bottom,#000,#000000fc 8.1%,#000000f3 15.5%,#000000e4 22.5%,#000000d2 29%,#000000bd 35.3%,#000000a5,#0000008c 47.1%,#00000073 52.9%,#0000005a,#00000042 64.7%,#0000002d 71%,#0000001b 77.5%,#0000000c 84.5%,#00000003 91.9%,#0000);
+  -webkit-filter: blur(32px) saturate(3) opacity(.5);
+  filter: blur(32px) saturate(3) opacity(.5);
+  pointer-events: none;
+  vertical-align: top;
+  opacity: 1;
+  aspect-ratio: 6 / 1;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: calc(-1 * var(77px));
+  box-sizing: border-box;
+  display: inline;
+}
+
 .site-icon {
 	float: left;
-	width: 112px;
-	height: 112px;
+	width: 156px;
+	height: 156px;
 	
 	filter: drop-shadow(-8px 0 8px var(--header-color-3, --bg-color)) drop-shadow(8px 0 8px var(--header-color-4, --bg-color));
 }
 
 .site-title {
     letter-spacing: 0px;
-    margin-bottom: 0;
-    float: left;
+    margin-bottom: 8px;
     font-weight: 400;
     font:
-        400 18px/2 "Inter",
+        800 42px "Inter",
         sans-serif;
     color: white;
 }
 @media screen and (max-width: 600px) {
     .site-title {
-        padding-right: 45px;
+        padding-right: 0px;
     }
 }
 .site-title,
@@ -359,16 +395,19 @@ table td {
 }
 
 .site-nav {
-    position: absolute;
-    top: 9px;
-    right: 15px;
+    position: relative;
+    place-self: center;
+    top: 40px;
+    right: 0;
     background-color: #fdfdfd;
     border: 1px solid #e8e8e8;
     border-radius: 5px;
-    text-align: right;
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 0;
     
         font:
-        400 18px/2 "Inter",
+        400 18px "Inter",
         sans-serif;
     color: white;
 }
@@ -406,16 +445,16 @@ table td {
     color: white;
     line-height: 1.5;
     display: block;
-    padding: 5px 10px;
-    margin-left: 20px;
+    padding: 0px 0px;
+    margin-left: 16px;
 }
 .site-nav .page-link:not(:last-child) {
     margin-right: 0;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 100px) {
     .site-nav {
-        position: static;
-        float: right;
+        position: relative;
+        float: left;
         border: none;
         background-color: inherit;
     }
@@ -434,7 +473,7 @@ table td {
         margin-left: auto;
     }
     .site-nav .page-link:not(:last-child) {
-        margin-right: 20px;
+        margin-right: 12px;
     }
 }
 
