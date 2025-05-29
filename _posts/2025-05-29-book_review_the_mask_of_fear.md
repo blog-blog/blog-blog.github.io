@@ -16,7 +16,7 @@ I'm not much of a critic, but I can tell when a book holds my attention, and I c
 As [Tony Gilroy said](https://www.youtube.com/watch?v=B-sI-Iz_zyo) about *Andor*, we already know where the story ends, but it's liberating to work inside those constraints. We already know what happens to Bail Organa, Mon Mothma, and Saw Gerrera, but it's fun to see the in-between.
 
 ## Mon Mothma
-![Mon Mothma Senate GIF](/asssets/media/mon-senate.gif)
+![Mon Mothma Senate GIF](/assets/media/mon-senate.gif)
 
 *I'm a certified Mon Mothma-fanatic. As such I focus mainly on her.*
 
