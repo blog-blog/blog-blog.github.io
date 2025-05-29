@@ -5,6 +5,7 @@ date: 2025-05-29 0:0:0
 categories:
 permalink:
 ---
+![Mon Mothma GIF captioned I believe we are in crisis](https://64.media.tumblr.com/c4d33ed76c892c2575d0a6e97945a9fd/bfd70f233281e18e-9e/s400x600/4c8dfc852e9470462e6491f3f1913bf7963c523d.gifv)
 
 Coming from *Andor* and wanting desperately to read more about Mon Mothma, I came across *The Mask of Fear*. It's the first part of a trilogy yet to come. After reading *Mask*, I wait (im)paitently for the next two installments.
 
@@ -15,7 +16,8 @@ I'm not much of a critic, but I can tell when a book holds my attention, and I c
 As [Tony Gilroy said](https://www.youtube.com/watch?v=B-sI-Iz_zyo) about *Andor*, we already know where the story ends, but it's liberating to work inside those constraints. We already know what happens to Bail Organa, Mon Mothma, and Saw Gerrera, but it's fun to see the in-between.
 
 ## Mon Mothma
-[Mon Mothma Senate GIF]
+![Mon Mothma Senate GIF](/asssets/media/mon-senate.gif)
+
 *I'm a certified Mon Mothma-fanatic. As such I focus mainly on her.*
 
 The Mon Mothma in *The Mask of Fear* is outwardly the same as the Mon we see in *Andor*: a pesky "establishment" Senator who supports annoying causes without the popularity or means to forward them. In *Mask*, Mon is called a hypocrite and calls herself a hyopcrite.
