@@ -49,3 +49,6 @@ That's not exactly a negative, but it makes me hungry for the rest of *Reign of 
 
 ## Verdict
 Love.
+
+## Credits
+GIFs from [patrick-stewart](https://patrick-stewart.tumblr.com/)
