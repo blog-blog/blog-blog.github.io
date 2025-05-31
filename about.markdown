@@ -32,9 +32,6 @@ Fun fact, the learning management system Canvas, which is used by ASU, is open s
 I'm supportive of the human, and as humans, we all need rest. So I also read, write, and play video games. I've been reading Sir Terry Pratchett's _Discworld_, but for non-fiction, I recommend Angela Chen's _Ace_. Additionally, from time to time I bake, watch a TV series, and spend some time on Youtube or social media.
 
 ## Contact
-- Email: [alatimer@protonmail.com](mailto:alatimer@protonmail.com)
-- ASU Email: [alatime5@asu.edu](mailto:alatime5@asu.edu)
-- [LinkedIn](https://www.linkedin.com/in/allston-latimer/)
 - [Github](https://github.com/mr-breakfast)
 
 ## Notes
