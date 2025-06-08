@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Review: Reign of the Empire: The Mask of Fear"
+title: "Book Report: Reign of the Empire: The Mask of Fear"
 date: 2025-05-29 0:0:0
 categories:
 permalink:
@@ -30,7 +30,7 @@ That is all to say it is easy to see how she went from *Mask*'s establishment-Mo
 
 Literally gun to her head, Mon said she would sacrifice herself and the entirety of Chandrila if it meant preserving democracy. To Mon, the preservation of democracy matters more than the will of the people. In *Andor*, it meant more than the needs of her family. In *Mask*, it meant more than loyalty to her friends and allies and more than the command not to murder.
 
-Sacrificing Chandrila and its 2 billion inhabitants is quite extreme, and she says that as a means to an important end, so perhaps she doesn't believe that absolutely. But it's easy to see that through-line: to care so much about democracy, to trying to wield beauracracy to save it, and then to lead the Rebellion in order to reestablish it—all the while making ethically dubious and undemocratic moves—shows a Mon 
+Sacrificing Chandrila and its 2 billion inhabitants is quite extreme, and she says that as a means to an important end, so perhaps she doesn't believe that absolutely. But it's easy to see that through-line between establishment- and rebel-Mon: to care so much about democracy, to trying to wield beauracracy to save it, and then to leading the Rebellion in order to reestablish it—all the while making ethically dubious and undemocratic moves.
 
 Even before the full-on rebel-Mon, she alread sees the limits of using the government to save the government. But that doesn't mean she gave up hope for the ideal beneficence of democracy. She's also not illusioned that the previous Republic was all that great.
 
@@ -43,12 +43,16 @@ I love political intrigue. It's what draws me to Star Wars: I'm more a fan of it
 
 Watching *Andor*, I thought: *If it could be written and directed as greatly as* Andor *was, then I'd love to see a Mon Mothma prequel, and a Luthen Rael prequel.* I think: *How did they meet?*
 
-*The Mask of Fear* answers some of that, but it doesn't cover much ground. It tells the origins (really more the sowing of the seeds) of rebellion.
+*The Mask of Fear* answers some of that, but it doesn't cover much ground. It tells the origins (really more the sowing of the seeds) of rebellion. It was also written before *Andor* season 2, which doesn't necessarily have any bearing on the story, but I think it's worth noting.
 
 That's not exactly a negative, but it makes me hungry for the rest of *Reign of the Empire*, and I hope the next installments cover more ground (and perhaps introduces us to the origins of Luthen and Kleya's operations).
 
 ## Verdict
-Love.
+Love. Well, the Mon Mothma and political intrigue parts. While I think the story is still well written, the spy, Seperatist, and off-world storylines are the weakest parts. It makes sense that Bail Organa finds himself among Saw Gerrera, but it's not as enthralling as the parts to do with Mon Mothma.
+
+Perhaps it's just my bias, but the spy, Saw, and Seperatist storylines were best when they were linked to Mon Mothma. I liked Soujen's story line best when it was linked to Mon. Same with Saw. Same with Bail. I don't think that *has* to be true, just that it happened to be the case.
+
+It satiates some of that post-*Andor* hunger. I just hope that the future books get away from the Seperatist-post-civil-war story lines (now that *Mask* covered them) and get to the nitty-gritty 'building the rebellion' story lines.
 
 ## Credits
 GIFs from [patrick-stewart](https://patrick-stewart.tumblr.com/)
