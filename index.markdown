@@ -5,10 +5,8 @@
 layout: home
 title: 
 list_title: Recent Posts
-show_exerpts: 0
+show_exerpts:
 ---
-
-**Welcome to the Cabinet** 
 
 It's sort of cozy in here, what, next to the vanilla and spice.
 
@@ -19,8 +17,3 @@ Briefly, I'm a **Writing Mentor** with Arizona State University's [Writers' Stud
 I'm also a student at ASU studying Philosophy and Spanish with an interest in Public Policy. In the meantime, I write for my blog [Vanilla Abstract](/#Vanilla Abstract), and I'm a [game artist](portfolio/game-art).
 
 I hope you enjoy your stay. Have a look around—I might recommend checking out my [Digital Literacy Narrative](portfolio/dln) project for English 484, a required course for beginning mentors.
-
-# Vanilla Abstract
-This is my blog. It's a play on [abstracts](https://en.wikipedia.org/wiki/Abstract_(summary)) and, of course, [vanilla extract](https://www.youtube.com/watch?v=kPauR6tP_cg).
-
-Here, we'll cover any of my topics of interest: open-source software, politics, books, and anything I write with a public audience in mind.

@@ -8,6 +8,63 @@ post_excerpt: false
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+
+<div class="home-tile-wrapper">
+
+  <a href="/portfolio" class="tile home-tile" id="home-tile-1">
+    <img class="home-tile-image" src="/assets/media/mbfp-preview.png"></img>
+    <div class="home-tile-banner-content">
+      <img class="home-tile-banner" src="/assets/media/mbfp-preview.png"></img>
+      <div class="home-tile-content">
+        <h1>Projects</h1>
+        <p>Find a list of all my projects</p>
+      </div>
+    </div>
+  </a>  
+  
+  <a href="/gallery" class="tile home-tile" id="home-tile-2">
+    <img class="home-tile-image" src="/assets/media/020.png"></img>
+    <div class="home-tile-banner-content">
+      <img class="home-tile-banner" src="/assets/media/020.png"></img>
+      <div class="home-tile-content">
+        <h1>Gallery</h1>
+        <p>Look at my artwork all in one place</p>
+      </div>
+    </div>
+  </a>  
+
+  <a href="/blog" class="tile home-tile" id="home-tile-3">
+    <img class="home-tile-image" src="/assets/media/mon-senate.gif"></img>
+      <div class="home-tile-banner-content">
+      <img class="home-tile-banner" src="/assets/media/mon-senate.gif"></img>
+      <div class="home-tile-content">
+        <h1>Blog</h1>
+        <p>Read my <em>Vanilla Abstract</em> next to the sugar and spice</p>
+      </div>
+    </div>
+  </a>  
+
+  <a href="/site-index" class="tile home-tile" id="home-tile-4">
+    <img class="home-tile-image" src="/assets/media/029.png"></img>
+    <div class="home-tile-banner-content">
+    <img class="home-tile-banner" src="/assets/media/029.png"></img>
+      <div class="home-tile-content">
+        <h1>Index</h1>
+        <p>Explore everything on the site in my curated site index</p>
+      </div>
+    </div>
+  </a>  
+  
+</div>
+
+<div class="tile tile-children" id="about-tile">
+  <h1>About me</h1>
   {{ content }}
-{%- include blog-list.html -%}
+</div>
+
+<div class="tile tile-children" id="social-tile">
+  <h1>Follow me Across the Web</h1>
+  <p>Explore everything on the site in my curated site index</p>
+</div>
+
 </div>

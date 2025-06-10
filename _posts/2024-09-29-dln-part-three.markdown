@@ -3,7 +3,7 @@ layout: post
 title: "Part Three: A Literacy En Media Res"
 date: 2024-10-2 0:0:2 -0700
 categories: digital-literacy-narrative
-permalink: /porfolio/dln-3
+permalink: /portfolio/dln-3
 ---
 *Written for ASU's ENG 484 Writing Mentor Internship, this is the final part of a three part Digital Literacy Narrative. Find here [part one](dln-1) and [part two](dln-2).*
 <figure>
