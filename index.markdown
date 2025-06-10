@@ -4,6 +4,8 @@
 
 layout: home
 title: 
+list_title: Recent Posts
+show_exerpts: 0
 ---
 
 **Welcome to the Cabinet** 

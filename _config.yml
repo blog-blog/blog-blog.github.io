@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Cabinet
+title: Mr. Breakfast
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to The Cabinet, where my blog is shoved.
@@ -30,17 +30,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - about.markdown
   - contact.md
-  - portfolio/teaching/teaching-portfolio.markdown
+  - blog.md
   - portfolio.markdown
 
 # Build settings
-remote_theme: jekyll/minima@3cdd14d
+
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
-  
-minima:
-  skin: dark
 
 markdown: kramdown
 kramdown:
