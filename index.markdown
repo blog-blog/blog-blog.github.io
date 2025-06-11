@@ -10,4 +10,4 @@ show_exerpts:
 
 It's sort of cozy in here, what, next to the vanilla and spice.
 
-To learn a little more about me, head over to the [About](about) page. 
+To learn a little more about me, head over to the  page. 

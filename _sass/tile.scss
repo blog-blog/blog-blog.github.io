@@ -2,10 +2,12 @@
    overflow: hidden;
    height: 100%;
    margin-top: 32px;
+   
+   border: 1px solid var(--divider-color);
+   background-color: var(--tile-bg-color);
+   border-radius: 16px;
    color: white;
-   font:
-        400 14px/1.5 "Inter",
-        sans-serif;
+   line-height: 1.5;
 }
 
 .tile-wrapper {
@@ -32,6 +34,7 @@
    padding: 16px;
 }
 
-.tile-content > h1 {
+.tile-content > h1, p {
   color: white;
+  margin-bottom: 4px;
 }

@@ -12,8 +12,12 @@ description
   <div 
     class="tile {{ include.class }}" 
     id="{{ include.id }}" 
-    style="box-shadow: {{ include.glow-color }} -16px 16px 32px -24px;">
+    style="{% if include.glow-color %} box-shadow: {{ include.glow-color }} -16px 16px 32px -24px;{% endif %}">
+    
+    {% if include.img %}
     <img class="tile-image" src="{{ include.img }}"></img>
+    {% endif %}
+    
     <div class="tile-wrapper">
       <img 
         class="tile-bg-blur" 
@@ -22,10 +26,9 @@ description
           {{ include.bg-img }}
         {% else %}
           {{ include.img }}
-        {% endif %}
-        
-        "></img>
-      <section class="tile-content">
+        {% endif %}">
+      </img>
+      <section class="tile-content" {% unless include.img %} style="padding: 32px;" {% endunless %}>
         <h1>{{ include.heading }}</h1>
         <p>{{ include.description }}</p>
       </section>

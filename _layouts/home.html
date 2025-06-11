@@ -43,9 +43,11 @@ post_excerpt: false
   
 </div>
 
-<div class="tile tile-children" id="about-tile">
-  <h1><a href="/about">About Me</a></h1>
-  {{ content }}
-</div>
+<a href="/about">
+  {% include tile.html 
+  heading="About Me" 
+  description="It's sort of cozy in here, what, next to the vanilla and spice." 
+  %}
+  </a> 
 
 {%- include contact.html -%}
