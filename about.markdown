@@ -31,8 +31,10 @@ Fun fact, the learning management system Canvas, which is used by ASU, is open s
 
 I'm supportive of the human, and as humans, we all need rest. So I also read, write, and play video games. I've been reading Sir Terry Pratchett's _Discworld_, but for non-fiction, I recommend Angela Chen's _Ace_. Additionally, from time to time I bake, watch a TV series, and spend some time on Youtube or social media.
 
-## Contact
-- [Github](https://github.com/mr-breakfast)
+## Site Credits
+Site designed by yours truly with inspiration with from Phanpy
+
+"Index" banner image from @jimmac made for GNOME pride wallpapers
 
 ## Notes
 [^1]: Most of the world's severs run on [Linux](https://en.wikipedia.org/wiki/Linux)

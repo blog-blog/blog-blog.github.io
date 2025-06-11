@@ -3,68 +3,49 @@ layout: default
 post_excerpt: false
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-
 <div class="home-tile-wrapper">
 
-  <a href="/portfolio" class="tile home-tile" id="home-tile-1">
-    <img class="home-tile-image" src="/assets/media/mbfp-preview.png"></img>
-    <div class="home-tile-banner-content">
-      <img class="home-tile-banner" src="/assets/media/mbfp-preview.png"></img>
-      <div class="home-tile-content">
-        <h1>Projects</h1>
-        <p>Find a list of all my projects</p>
-      </div>
-    </div>
+  <a href="/projects">
+  {% include tile.html 
+  heading="Projects" 
+  description="Find a list of all my projects" 
+  img="/assets/media/mbfp-preview.png"
+  glow-color="#f2424a80"
+  %}
   </a>  
   
-  <a href="/gallery" class="tile home-tile" id="home-tile-2">
-    <img class="home-tile-image" src="/assets/media/020.png"></img>
-    <div class="home-tile-banner-content">
-      <img class="home-tile-banner" src="/assets/media/020.png"></img>
-      <div class="home-tile-content">
-        <h1>Gallery</h1>
-        <p>Look at my artwork all in one place</p>
-      </div>
-    </div>
-  </a>  
-
-  <a href="/blog" class="tile home-tile" id="home-tile-3">
-    <img class="home-tile-image" src="/assets/media/mon-senate.gif"></img>
-      <div class="home-tile-banner-content">
-      <img class="home-tile-banner" src="/assets/media/mon-senate.gif"></img>
-      <div class="home-tile-content">
-        <h1>Blog</h1>
-        <p>Read my <em>Vanilla Abstract</em> next to the sugar and spice</p>
-      </div>
-    </div>
-  </a>  
-
-  <a href="/site-index" class="tile home-tile" id="home-tile-4">
-    <img class="home-tile-image" src="/assets/media/029.png"></img>
-    <div class="home-tile-banner-content">
-    <img class="home-tile-banner" src="/assets/media/029.png"></img>
-      <div class="home-tile-content">
-        <h1>Index</h1>
-        <p>Explore everything on the site in my curated site index</p>
-      </div>
-    </div>
-  </a>  
+  <a href="/gallery">
+  {% include tile.html 
+  heading="Gallery" 
+  description="Look at my artwork all in one place" 
+  img="/assets/media/020.png"
+  glow-color="#c4e9ed80"
+  %}
+  </a> 
+  
+  <a href="/blog">
+  {% include tile.html 
+  heading="Blog" 
+  description="Read my <em>Vanilla Abstract</em> next to the sugar and spice" 
+  img="/assets/media/mon-senate.gif"
+  glow-color="#a4b59080"
+  %}
+  </a> 
+  
+  <a href="/site-map">
+  {% include tile.html 
+  heading="Index" 
+  description="Explore everything on the site in my curated site index" 
+  img="/assets/media/029.png"
+  glow-color="#eb720c80" 
+  %}
+  </a> 
   
 </div>
 
 <div class="tile tile-children" id="about-tile">
-  <h1>About me</h1>
+  <h1><a href="/about">About Me</a></h1>
   {{ content }}
 </div>
 
-<div class="tile tile-children" id="social-tile">
-  <h1>Follow me Across the Web</h1>
-  <p>Explore everything on the site in my curated site index</p>
-</div>
-
-</div>
+{%- include contact.html -%}

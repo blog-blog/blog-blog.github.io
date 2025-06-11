@@ -1,0 +1,33 @@
+<!-- Parameters:
+Parent params:
+  class
+  id
+  glow-color
+img
+bg-img
+heading
+description
+-->
+  
+  <div 
+    class="tile {{ include.class }}" 
+    id="{{ include.id }}" 
+    style="box-shadow: {{ include.glow-color }} -16px 16px 32px -24px;">
+    <img class="tile-image" src="{{ include.img }}"></img>
+    <div class="tile-wrapper">
+      <img 
+        class="tile-bg-blur" 
+        src="
+        {% if include.bg-img %}
+          {{ include.bg-img }}
+        {% else %}
+          {{ include.img }}
+        {% endif %}
+        
+        "></img>
+      <section class="tile-content">
+        <h1>{{ include.heading }}</h1>
+        <p>{{ include.description }}</p>
+      </section>
+    </div>
+  </div>  

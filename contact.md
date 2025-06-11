@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
-permalink: /about/#contact
+permalink: /contact/
 ---
 
+{%- include contact.html -%}

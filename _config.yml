@@ -30,7 +30,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - about.markdown
   - contact.md
-  - blog.md
+  - blog.html
   - portfolio.markdown
 
 # Build settings
