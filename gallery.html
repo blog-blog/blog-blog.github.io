@@ -3,6 +3,17 @@ layout: default
 title: Gallery
 permalink: 
 ---
+{% include pill.html
+  content="works"
+  link="path"
+  %}
+
+{% include tile.html
+  heading="tile with tags"
+  pills="tag1, tag6, b, Majimo Build!, tag3"
+  description="dummy content. tags to be styled as pills"
+  %}
+  
 <section class="gallery-wrapper">
 <div class="gallery-col-1">
   {% for item in site.data.gallery %}
