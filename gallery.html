@@ -1,0 +1,40 @@
+---
+layout: default
+title: Gallery
+permalink: 
+---
+<section class="gallery-wrapper">
+<div class="gallery-col-1">
+  {% for item in site.data.gallery %}
+    {% assign item_num = forloop.index | modulo: 2 %}
+    {% if item_num == 1 %}
+      {% include tile.html 
+        include-link="true"
+        link=item.link
+        class="gallery-tile"
+        img=item.img
+        video=item.video
+        heading=item.heading 
+        description=item.description 
+        include-bg="false" 
+      %} 
+    {% endif %} 
+  {% endfor %} 
+</div>
+
+<div class="gallery-col-2">
+  {% for item in site.data.gallery %}
+    {% assign item_num = forloop.index | modulo: 2 %}
+    {% if item_num == 0 %}
+        {% include tile.html 
+        include-link="true"
+        link=item.link
+        class="gallery-tile"
+        img=item.img
+        video=item.video
+        heading=item.heading 
+        description=item.description 
+        include-bg="false" 
+        %} {% endif %} {% endfor %} </div>
+        
+</section>

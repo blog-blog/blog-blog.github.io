@@ -31,12 +31,21 @@ header_pages:
   - about.markdown
   - contact.md
   - blog.html
-  - portfolio.markdown
+  - gallery.html
+
+# page_gen-dirs: true
+
+# page_gen: 
+#  - data: 'gallery.tags'
+#  - template: 'page'
+#  - dir: 'tag'
+ # - name: 'tags'
 
 # Build settings
 
 plugins:
   - jekyll-feed
+  - jekyll-datapage-generator
 
 markdown: kramdown
 kramdown:

@@ -1,0 +1,22 @@
+# all `img:` values are prefaced with `/assets/`
+# Values:
+# img, video, audio
+# heading
+# description
+# link
+# tags
+
+- img: /assets/media/011.webp
+  heading: 3CQ Infographic
+  description: Made as a suplemental resource for English 101 students
+  tags: [education, infographic, vector]
+
+- img: /assets/media/020.png
+  description: The third concept art iteration for <em>Majimo Build!</em>
+  tags: [3D, game, Majimo Build!]
+
+- heading: Very cool link
+  description: My liquid works!
+  link: https://www.youtube.com
+
+- video: /assets/media/007.mp4

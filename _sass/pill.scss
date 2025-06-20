@@ -1,0 +1,19 @@
+.pill {
+  border: 1px solid var(--divider-color);
+  background-color: #353638;
+  border-radius: 500px;
+  padding: 6px 12px;
+  margin: 16px 8px 16px 0;
+  
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+
+.pill-link {}
+
+/* Premade pills */
+#Majimo\ Build\! {
+  background-color: #e8b1f9;
+  color: var(--bg-color);
+}

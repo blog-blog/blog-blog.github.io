@@ -1,36 +1,87 @@
 <!-- Parameters:
-Parent params:
-  class
-  id
-  glow-color
-img
-bg-img
-heading
-description
+include-link: boolean, default: false, wraps tile in <a>, href=tile-media -- remove, because 'if link' is enough. in gallery, just pass img into link
+link: url, overrides href
+class: string
+id: string
+glow-color: color
+img: url 
+audio:url
+video: url
+bg-img: url, default: img
+include-bg: boolean, default: true
+heading: string
+pills: string, array: "x", "y", …, used for tags, links to /tag/`pills`
+description: string
+
+If no heading or description, remove tile-wrapper
 -->
-  
-  <div 
-    class="tile {{ include.class }}" 
-    id="{{ include.id }}" 
-    style="{% if include.glow-color %} box-shadow: {{ include.glow-color }} -16px 16px 32px -24px;{% endif %}">
-    
-    {% if include.img %}
-    <img class="tile-image" src="{{ include.img }}"></img>
-    {% endif %}
-    
-    <div class="tile-wrapper">
-      <img 
-        class="tile-bg-blur" 
-        src="
-        {% if include.bg-img %}
-          {{ include.bg-img }}
-        {% else %}
-          {{ include.img }}
-        {% endif %}">
-      </img>
-      <section class="tile-content" {% unless include.img %} style="padding: 32px;" {% endunless %}>
-        <h1>{{ include.heading }}</h1>
-        <p>{{ include.description }}</p>
-      </section>
-    </div>
-  </div>  
+<!-- Classes available to tile.scss:
+tile tile-media tile-wrapper tile-bg-blur tile-content pill-wrapper pill-element
+-->
+
+<!-- If include-link, wrap tile in <a> -->
+{% if include.include-link %}
+  <a href="
+     {% if include.link %}
+       {{ include.link }}
+     {% else %}
+       {{ include.img }} {{ include.video }} {{ include.audio }}
+     {% endif %}
+     "
+     target='_blank'> {%endif%}
+
+    <!-- Defines class, id, or glow-color behavior -->
+    <div 
+      class="tile {{ include.class }}" 
+      id="{{ include.id }}" 
+      style="{% if include.glow-color %} box-shadow: {{ include.glow-color }} -16px 16px 32px -24px;{% endif %}">
+      
+      <!-- If img, audio, or video, create element.tile-media -->
+      {% if include.img %}
+        <img class="tile-media" src="{{ include.img }}" loading="lazy"></img> {% endif %}
+      
+      {% if include.audio %}
+       <img class="tile-media" src="{{ include.audio }}" loading="lazy"></img> {% endif %}
+      
+      {% if include.video %}
+        <video class="tile-media" src="{{ include.video }}" autoplay="" loop="" loading="lazy"></video> {% endif %}
+      
+      <!-- If heading or description, create element.tile-wrapper - If bg-img and no (heading and description), then no bg-img -->
+      {% if include.heading or include.description %}
+        <div class="tile-wrapper">
+        
+          <!-- If include-bg is false, remove element.bg-img -->
+          {% unless include.include-bg | default: true %}
+          
+            <!-- If bg-img, src="bg-img" otherwise src="img" -->
+            <img 
+              class="tile-bg-blur" 
+              src="
+              {% if include.bg-img %}
+                {{ include.bg-img }}
+              {% else %}
+                {{ include.img }} {% endif %}">
+            </img> {% endunless %}
+              
+          <!-- If no img, set tile-content padding to 32px-->
+          <section class="tile-content" {% unless include.img %} style="padding: 32px;" {% endunless %}>
+            <h1> {{ include.heading }} </h1>
+            <!-- If span, loop span list -->
+            {% if include.pills %}
+              {% assign pill_array = include.pills | split: ", " | sort %}
+              <div class="pill-wrapper">
+                {% for item in pill_array %}
+                    {% include pill.html content=item id=item tag-link=item %}
+                {% endfor %}
+              </div>
+            {% endif %}
+            <p> {{ include.description }} </p>
+          </section>
+          
+        </div> {% endif %}
+        
+    </div>  
+
+<!-- Complete <a> wrap -->
+{% if include.include-link %}
+  </a> {%endif%}

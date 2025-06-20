@@ -1,13 +1,12 @@
 <div class="post-list">
   {% for post in site.posts %}
-    <div class="tile post-tile">
-      <h3 class="post-heading"><a class="post-link" href="{{ post.url | relative_url }}"> {{ post.title | escape }}</a></h3>
-      <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
+  <div class="tile post-tile">
+    <h3 class="post-heading"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+    <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
 
-       {{ post.excerpt }}
-      <a href="{{ post.url | relative_url }}"><p>…</p></a>
+    {{ post.excerpt }}
 
-
-    </div>
+    <a href="{{ post.url | relative_url }}"><p>…</p></a>
+  </div>
   {% endfor %}
 </div>

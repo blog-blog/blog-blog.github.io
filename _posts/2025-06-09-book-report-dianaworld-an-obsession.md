@@ -3,7 +3,7 @@ layout: post
 title: "Book Report: Dianaworld: An Obsession"
 date: 2025-06-09
 author: Mr. Breakfast
-categories:
+tags: books
 permalink:
 ---
 ![Cover of Dianworld, which is half a headshot of Princess Diana. The title and author are written in a white serif font.](https://cdn2.wwnorton.com/wwnproducts/TRADE/8/6/9781324021568/9781324021568_198.jpg)
@@ -25,4 +25,4 @@ I'm not really a non-fiction reader unless it's an article, and of the non-ficti
 
 I think the deconstructing of an illusion is quite interesting, though, but I imagine if you're quite steeped in it, *Dianaworld* might even read as an attack. While reading it, I wondered if White was at times perhaps a bit *too* biting, but I was there for it. He didn't read as if her was particularly biased against her, however. He's just realistic.
 
-I was drawn to the book because it was displayed front-out in the library's 'new' section, and I'm a small-minor Dianist. It met my expectations. Verdict: quite liked it, very illuminating, and funny. And above all, I wonder, *What is it with gay men and popular women and female characters?*
+I was drawn to the book because it was displayed front-out in the library's 'new' section, and I'm a small, minor Dianaist. It met my expectations. Verdict: quite liked it, very illuminating, and funny. And above all, I wonder, *What is it with gay men and popular women and female characters?*

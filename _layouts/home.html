@@ -3,51 +3,65 @@ layout: default
 post_excerpt: false
 ---
 
-<div class="home-tile-wrapper">
+{% include pill.html
+  content="works"
+  link="path"
+  %}
 
-  <a href="/projects">
-  {% include tile.html 
-  heading="Projects" 
-  description="Find a list of all my projects" 
-  img="/assets/media/mbfp-preview.png"
-  glow-color="#f2424a80"
+{% include tile.html
+  heading="tile with tags"
+  pills="tag1, tag6, b, Majimo Build!, tag3"
+  description="dummy content. tags to be styled as pills"
   %}
-  </a>  
-  
-  <a href="/gallery">
-  {% include tile.html 
-  heading="Gallery" 
-  description="Look at my artwork all in one place" 
-  img="/assets/media/020.png"
-  glow-color="#c4e9ed80"
-  %}
-  </a> 
-  
-  <a href="/blog">
-  {% include tile.html 
-  heading="Blog" 
-  description="Read my <em>Vanilla Abstract</em> next to the sugar and spice" 
-  img="/assets/media/mon-senate.gif"
-  glow-color="#a4b59080"
-  %}
-  </a> 
-  
-  <a href="/site-map">
-  {% include tile.html 
-  heading="Index" 
-  description="Explore everything on the site in my curated site index" 
-  img="/assets/media/029.png"
-  glow-color="#eb720c80" 
-  %}
-  </a> 
-  
+
+<div class="home-tile-wrapper">
+    {% include tile.html 
+    include-link="true"
+    link="/projects"
+    class="home-tile"
+    heading="Projects" 
+    description="Find a list of all my projects" 
+    img="/assets/media/mbfp-preview.png"
+    glow-color="#f2424a80"
+    %}
+
+    {% include tile.html 
+    include-link="true"
+    link="/gallery"
+    class="home-tile"
+    heading="Gallery" 
+    description="Look at my artwork all in one place" 
+    img="/assets/media/020.png"
+    glow-color="#c4e9ed80"
+    %}
+
+    {% include tile.html 
+    include-link="true"
+    link="/blog"
+    class="home-tile"
+    heading="Blog" 
+    description="Read my <em>Vanilla Abstract</em> next to the sugar and spice" 
+    img="/assets/media/mon-senate.gif"
+    glow-color="#a4b59080"
+    %}
+
+    {% include tile.html 
+    include-link="true"
+    link="/site-map"
+    class="home-tile"
+    heading="Index" 
+    description="Explore everything on the site in my curated site index" 
+    img="/assets/media/029.png"
+    glow-color="#eb720c80" 
+    %}
+
 </div>
 
 <a href="/about">
-  {% include tile.html 
-  heading="About Me" 
-  description="It's sort of cozy in here, what, next to the vanilla and spice." 
-  %}
-  </a> 
+    {% include tile.html 
+    heading="About Me" 
+    description="It's sort of cozy in here, what, next to the vanilla and spice." 
+    %}
+</a> 
 
 {%- include contact.html -%}

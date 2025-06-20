@@ -1,0 +1,36 @@
+<!-- Parameters
+class: string
+id: string, premade pills exist in /pill.css
+tag-link: string, prepended with /tag/
+link: string, either tag-link or link
+bg-color: color
+content: string
+-->
+<!-- Classes available to pill.scss:
+pill pill-link
+-->
+
+{% if include.link or include.tag-link %}
+  <a
+    {% if include.link %}
+      href='{{ include.link }}' class="pill-link"> 
+    {% endif %}
+    
+    {% if include.tag-link %}
+     href='/tag/{{ include.tag-link }}' class="pill-link"> 
+    {% endif %}
+{% endif %}
+    <span 
+      class="pill {{ include.class }}" 
+      id="{{ include.id }}"
+      style="
+        {% if include.bg-color %}
+          background-color: {{ include.bg-color }}
+        {% endif %}"
+    >
+      {{ include.content }}
+    </span>
+
+{% if include.link or include.tag-link %}
+  </a> 
+{% endif %}

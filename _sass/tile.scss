@@ -1,40 +1,43 @@
 .tile {
-   overflow: hidden;
-   height: 100%;
-   margin-top: 32px;
-   
-   border: 1px solid var(--divider-color);
-   background-color: var(--tile-bg-color);
-   border-radius: 16px;
-   color: white;
-   line-height: 1.5;
+  overflow: hidden;
+
+  margin-top: 32px;
+  border: 1px solid var(--divider-color);
+  background-color: var(--tile-bg-color);
+  border-radius: 16px;
+  color: white;
+  line-height: 1.5;
 }
 
 .tile-wrapper {
-   position: relative;
+  position: relative;
 }
 
-.tile-image {
-   height: 60%;
-   width: 100%;
-   object-fit: cover;
-   object-position: top;
+.tile-media {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .tile-bg-blur {
   position: absolute;
   width: 100%;
   aspect-ratio: 6 / 1;
-  filter: blur(32px) saturate(3) opacity(.45);
+  filter: blur(32px) saturate(3) opacity(0.45);
   pointer-events: none;
   object-fit: cover;
 }
 
 .tile-content {
-   padding: 16px;
+  padding: 16px;
 }
 
-.tile-content > h1, p {
+.tile-content > h1,
+p {
   color: white;
   margin-bottom: 4px;
+}
+
+.pill-wrapper {
+  margin: 8px 0;
 }
