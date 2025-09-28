@@ -1,7 +1,21 @@
 
+body.gallery {
+  display: grid;
+  grid-template-columns: auto 100px 800px 100px auto;
+}
+
+main.gallery {
+  grid-column: 2/5;
+}
+
+.gallery > header, .gallery > footer, .gallery > section {
+  grid-column: 3;
+}
+
 .gallery-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+
+  grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   
@@ -16,7 +30,17 @@
   grid-column: 2;
 }
 
+.gallery-col-3 {
+  grid-column: 3;
+}
+
 .gallery-tile {
   margin-top: 16px;
 }
 
+@media (max-width: 1050px) {
+  body.gallery {
+    display: block;
+    padding: 0 16px;
+  }
+}

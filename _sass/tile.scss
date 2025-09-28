@@ -1,12 +1,9 @@
 .tile {
   overflow: hidden;
-
   margin-top: 32px;
-  border: 1px solid var(--divider-color);
-  background-color: var(--tile-bg-color);
-  border-radius: 16px;
-  color: white;
-  line-height: 1.5;
+  border: 1px solid var(--outline-color);
+  background-color: var(--bg-2);
+  border-radius: var(--border-radius);
 }
 
 .tile-wrapper {
@@ -32,10 +29,16 @@
   padding: 16px;
 }
 
-.tile-content > h1,
-p {
+.tile-content > h2, 
+.tile-content > p {
   color: white;
-  margin-bottom: 4px;
+  
+  margin-top: 0;
+  margin-bottom: .25em;
+}
+
+.tile-content > h2 {
+  font-family: var(--extrabold);
 }
 
 .pill-wrapper {

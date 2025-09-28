@@ -1,6 +1,7 @@
 <!-- Parameters:
-include-link: boolean, default: false, wraps tile in <a>, href=tile-media -- remove, because 'if link' is enough. in gallery, just pass img into link
+include-link: boolean, default | false, wraps tile in link where `href=tile-media`
 link: url, overrides href
+target-blank: boolean
 class: string
 id: string
 glow-color: color
@@ -20,7 +21,7 @@ tile tile-media tile-wrapper tile-bg-blur tile-content pill-wrapper pill-element
 -->
 
 <!-- If include-link, wrap tile in <a> -->
-{% if include.include-link %}
+{% if include.include-link or include.link %}
   <a href="
      {% if include.link %}
        {{ include.link }}
@@ -28,7 +29,7 @@ tile tile-media tile-wrapper tile-bg-blur tile-content pill-wrapper pill-element
        {{ include.img }} {{ include.video }} {{ include.audio }}
      {% endif %}
      "
-     target='_blank'> {%endif%}
+     {% if include.target-blank %} target='_blank'> {% endif %} {%endif%}
 
     <!-- Defines class, id, or glow-color behavior -->
     <div 
@@ -65,7 +66,7 @@ tile tile-media tile-wrapper tile-bg-blur tile-content pill-wrapper pill-element
               
           <!-- If no img, set tile-content padding to 32px-->
           <section class="tile-content" {% unless include.img %} style="padding: 32px;" {% endunless %}>
-            <h1> {{ include.heading }} </h1>
+            <h2> {{ include.heading }} </h2>
             <!-- If span, loop span list -->
             {% if include.pills %}
               {% assign pill_array = include.pills | split: ", " | sort %}

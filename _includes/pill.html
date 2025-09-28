@@ -13,11 +13,11 @@ pill pill-link
 {% if include.link or include.tag-link %}
   <a
     {% if include.link %}
-      href='{{ include.link }}' class="pill-link"> 
+      href='{{ include.link }}' class="pill-link link-nostyle"> 
     {% endif %}
     
     {% if include.tag-link %}
-     href='/tag/{{ include.tag-link }}' class="pill-link"> 
+     href='/tag/{{ include.tag-link }}' class="pill-link link-nostyle"> 
     {% endif %}
 {% endif %}
     <span 
@@ -26,11 +26,5 @@ pill pill-link
       style="
         {% if include.bg-color %}
           background-color: {{ include.bg-color }}
-        {% endif %}"
-    >
-      {{ include.content }}
-    </span>
-
-{% if include.link or include.tag-link %}
-  </a> 
+        {% endif %}">{{ include.content }}</span>{% if include.link or include.tag-link %}</a> 
 {% endif %}

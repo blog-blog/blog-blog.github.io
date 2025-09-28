@@ -21,7 +21,7 @@
 title: Mr. Breakfast
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my home on the web. Enjoy your stay!
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -29,9 +29,27 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 header_pages:
   - about.markdown
-  - contact.md
+  - contact.html
   - blog.html
   - gallery.html
+  
+footer_pages:
+  - path: /
+    name: Home
+  - path: /about
+    name: About
+  - path: /contact
+    name: Contact
+  - path: /blog
+    name: Blog
+  - path: /project
+    name: Projects
+  - path: /gallery
+    name: Gallery
+  - path: /index
+    name: Index
+  - path: /credits
+    name: Credits
 
 # page_gen-dirs: true
 

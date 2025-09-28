@@ -6,8 +6,8 @@ post_excerpt: false
 <div class="home-tile-wrapper">
     {% include tile.html 
     include-link="true"
-    link="/projects"
-    class="home-tile"
+    link="/project"
+    class="home grow"
     heading="Projects" 
     description="Find a list of all my projects" 
     img="/assets/media/mbfp-preview.png"
@@ -17,7 +17,7 @@ post_excerpt: false
     {% include tile.html 
     include-link="true"
     link="/gallery"
-    class="home-tile"
+    class="home grow"
     heading="Gallery" 
     description="Look at my artwork all in one place" 
     img="/assets/media/020.png"
@@ -27,7 +27,7 @@ post_excerpt: false
     {% include tile.html 
     include-link="true"
     link="/blog"
-    class="home-tile"
+    class="home grow"
     heading="Blog" 
     description="Read my <em>Vanilla Abstract</em> next to the sugar and spice" 
     img="/assets/media/mon-senate.gif"
@@ -36,8 +36,8 @@ post_excerpt: false
 
     {% include tile.html 
     include-link="true"
-    link="/site-map"
-    class="home-tile"
+    link="/index"
+    class="home grow"
     heading="Index" 
     description="Explore everything on the site in my curated site index" 
     img="/assets/media/029.png"
@@ -45,12 +45,15 @@ post_excerpt: false
     %}
 
 </div>
+  
 
-<a href="/about">
-    {% include tile.html 
-    heading="About Me" 
-    description="It's sort of cozy in here, what, next to the vanilla and spice." 
-    %}
-</a> 
+<div class="vertical-center" style="margin-top: 32px;">
 
-{%- include contact.html -%}
+  <a href='/about/' class="button home" id='aboutme-button'>
+  About Me →
+  </a>
+
+  <a href='/contact/' class="button home" id='contactme-button'>
+  Contact Me →
+  </a>
+</div>

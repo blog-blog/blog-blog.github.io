@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Book Report: Dianaworld: An Obsession"
+title: "Book Report: <em>Dianaworld: An Obsession</em>"
 date: 2025-06-09
 author: Mr. Breakfast
 tags: books
 permalink:
 ---
-![Cover of Dianworld, which is half a headshot of Princess Diana. The title and author are written in a white serif font.](https://cdn2.wwnorton.com/wwnproducts/TRADE/8/6/9781324021568/9781324021568_198.jpg)
+![Cover of Dianworld, which is half a headshot of Princess Diana. The title and author are written in a white serif font.](/assets/media/031.jpg)
 {: .image-right}
 First, the book design is quite beautiful. The featured photograph does much of the heavy lifting, but the serif-font aids it, too, and the royal blue peeking out from under the jacket compliment the oranges and peaches in Diana's face and highlights the blue of her eye. I would call it (amongst the books I have read) second only to Emily Wilson's translation of Homer's *The Odyssey* and in the running with a particularly beautiful edition of J.R.R Tolkein's *The Hobbit*, which was from a local library and which had begun falling apart—taped along the spine with green duct-tape, and with both of Claire Saffitz' cookbooks *Dessert Person* and *What's for Desert*, which are in and of themselves works of art. The interior layout and typography of *Dianaworld* are quite pretty and elegantly done. The paper also feels of nice quality.
 

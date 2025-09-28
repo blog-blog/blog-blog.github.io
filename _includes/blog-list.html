@@ -1,12 +1,12 @@
-<div class="post-list">
-  {% for post in site.posts %}
-  <div class="tile post-tile">
-    <h3 class="post-heading"><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-    <p class="post-meta">{{ post.date | date: '%B %-d, %Y' }}</p>
 
-    {{ post.excerpt }}
-
-    <a href="{{ post.url | relative_url }}"><p>…</p></a>
-  </div>
-  {% endfor %}
-</div>
+{% for post in site.posts %}
+  {% assign post_url = post.url %}
+  {% assign post_date = post.date | date: '%B %-d %Y' %}
+  {% include tile.html 
+    include-link="true"
+    link=post_url
+    heading=post.title
+    pills=post_date
+    description=post.excerpt
+    %}
+{% endfor %}

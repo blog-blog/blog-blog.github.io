@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book Report: Reign of the Empire: The Mask of Fear"
+title: "Book Report: <em>Reign of the Empire: The Mask of Fear</em>"
 date: 2025-05-29 0:0:0
 categories:
 permalink:

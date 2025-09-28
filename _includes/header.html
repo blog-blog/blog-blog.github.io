@@ -1,23 +1,24 @@
 <header class="site-header">
 
-  <img class="header-banner" src="/assets/media/header_icon.png"></img>
+  <img class="header-banner" src="/assets/media/header_icon.png">
+  
   <div class="header-wrapper">
     <a href="/" class="site-icon"><img src="/assets/media/header_icon.png">
       
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
-      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+      
       
 
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    <div class="link-container">
-            {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+    <a class="site-title" href="/">{{ site.title }}</a>
+    <nav class="link-container">
+            {% for path in page_paths %}
+              {% assign my_page = site.pages | where: "path", path | first %}
+              {% if my_page.title %}
+              <a {% if my_page.url == page.url %}style="color:white;"{% endif %} class="page-link" href="{{ my_page.url | relative_url }}" >{{ my_page.title | escape }}</a>
               {%- endif -%}
             {%- endfor -%}
-    </div>
+    </nav>
   </div>
   
 
